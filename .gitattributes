@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+# Windows 脚本必须是 CRLF，shell 脚本必须是 LF（否则 clone 到 Linux/macOS 后 gradlew 跑不起来）
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制，别做任何转换
+*.jar binary
+*.jks binary
+*.apk binary
+*.png binary
+*.webp binary

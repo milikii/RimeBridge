@@ -1,0 +1,17 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+captures/
+.cxx/
+
+# 签名
+keystore/
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# WorkBuddy 工作区数据（个人笔记，不进仓库）
+.workbuddy/

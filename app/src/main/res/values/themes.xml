@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 不用 AndroidX，直接用平台主题；targetSdk 36 强制 edge-to-edge，内边距在代码里按 insets 处理 -->
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/background_light</item>
+    </style>
+</resources>
